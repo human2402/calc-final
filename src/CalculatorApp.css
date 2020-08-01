@@ -17,3 +17,9 @@ body {
 button:focus {
     outline-style: none
 }
+
+@media (min-width: 750px) {
+    .app {
+        max-width: 400px;
+    }
+}
